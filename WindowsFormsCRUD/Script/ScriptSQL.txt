@@ -1,0 +1,18 @@
+﻿CREATE DATABASE CRUD
+
+CREATE TABLE Funcionarios (
+    Id INT PRIMARY KEY,
+    Nome VARCHAR(50),
+    Cargo VARCHAR(50),
+    Salario MONEY,
+    Status BIT NOT NULL DEFAULT 1
+);
+
+INSERT INTO Funcionarios VALUES (1, 'Pedro', 'Developer', 2500.00, 1);
+INSERT INTO Funcionarios VALUES (102, 'Kadmiel', 'Developer', 25000.00, 0);
+INSERT INTO Funcionarios VALUES (103, 'Guilherme', 'Tester', 20000.00, 1);
+INSERT INTO Funcionarios VALUES (104, 'Taliana', 'Developer', 29000.00, 1);
+INSERT INTO Funcionarios VALUES (105, 'Graça', 'Tester', 30000.00, 1);
+INSERT INTO Funcionarios VALUES (106, 'Maria', 'Team Leader', 60000.00, 1);
+
+SELECT * FROM Funcionarios
