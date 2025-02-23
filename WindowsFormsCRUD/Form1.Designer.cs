@@ -149,6 +149,7 @@
             // 
             // btnInserir
             // 
+            this.btnInserir.Enabled = false;
             this.btnInserir.Location = new System.Drawing.Point(225, 164);
             this.btnInserir.Name = "btnInserir";
             this.btnInserir.Size = new System.Drawing.Size(75, 23);
